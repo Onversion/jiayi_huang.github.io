@@ -189,7 +189,7 @@
 </tr>
 
 
-<tr onmouseout="CD_CI_stop()" onmouseover="CD_CI_start()">
+<tr onmouseout="tcd_stop()" onmouseover="tcd_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
       <div class="two" id='cd_ci_image'>
@@ -231,20 +231,19 @@
 
 
 
-<tr onmouseout="scbnn_ocm_stop()" onmouseover="scbnn_ocm_start()">
+<tr onmouseout="tcd_stop()" onmouseover="tcd_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
-      <div class="two" id='scbnn_ocm_image'>
-      <img src="images/SCBNN-OCM.jpg" width="160"></div>
-      <img src='images/SCBNN-OCM_1.jpg' width="160">
+      <img src="images/standard_learning.jpg" width="170">
+      <img id='scbnn_ocm' src='images/scbnn_ocm.jpg' width="170">
     </div>
     <script type="text/javascript">
       function tcd_start() {
-        document.getElementById('scbnn_ocm_image').style.opacity = "1";
+        document.getElementById('scbnn_ocm').style.opacity = "1";
       }
 
       function tcd_stop() {
-        document.getElementById('scbnn_ocm_image').style.opacity = "0";
+        document.getElementById('scbnn_ocm').style.opacity = "1";
       }
       tcd_stop()
     </script>
@@ -274,8 +273,8 @@
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
       <div class="two" id='cbnn_image'>
-      <img src="images/CBNN.jpg" width="160"></div>
-      <img src='images/CBNN.jpg' width="160">
+      <img src="images/cabnn.jpg" width="160"></div>
+      <img src='images/cabnn.jpg' width="160">
     </div>
     <script type="text/javascript">
       function cbnn_start() {
